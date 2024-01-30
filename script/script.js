@@ -52,3 +52,13 @@ for (let i = 0;  i< 5; i++) {
     console.log(i);
     
 }
+//foreach
+article.forEach((artt)=>{
+console.log(artt.nom);
+});
+
+///map
+const artPrenom=article.map((aer02)=>{
+    return aer02.prenom;
+});
+console.log(artPrenom);
